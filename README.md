@@ -38,16 +38,12 @@ DB_USERNAME=*************
 DB_PASSWORD=*************
 ```
 
-Generate an application key
-```
-php artisan key:generate
-```
-
 Run the command in main directory
 
 ```
 composer install
 php artisan migrate
+php artisan key:generate
 npm i 
 npm run dev
 ```

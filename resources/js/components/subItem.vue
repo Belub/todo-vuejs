@@ -8,9 +8,7 @@
                 class="input__checkbox mr-3"
             />
             <span
-                :class="
-                    [subItem.completed ? 'completed' : '', 'item'] + ' ml-2'
-                "
+                :class="[subItem.completed ? 'completed ml-2' : '', 'item ml-2']"
                 >{{ subItem.name }}</span
             >
         </div>

@@ -13,10 +13,7 @@
                         class="input__checkbox mr-3"
                     />
                     <span
-                        :class="
-                            [item.completed ? 'completed' : '', 'item'] +
-                            ' ml-2'
-                        "
+                        :class="[item.completed ? 'completed ml-2' : '', 'item ml-2']"
                         >{{ item.name }}</span
                     >
                 </div>
