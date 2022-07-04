@@ -57,4 +57,14 @@ export default {
 .inactive {
     color: gray;
 }
+button.active,
+button.notactive,
+input.border {
+    height: 40px;
+    border-radius: 6px;
+}
+input.border {
+    width: 300px;
+    margin-right: 10px;
+}
 </style>
