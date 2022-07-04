@@ -33,7 +33,7 @@ Replace these values in .env
 DB_CONNECTION=mysql
 DB_HOST=localhost
 DB_PORT=3306
-DB_DATABASE=laraapp
+DB_DATABASE=vuetodo
 DB_USERNAME=*************
 DB_PASSWORD=*************
 ```
